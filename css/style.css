@@ -125,26 +125,12 @@ a {
 	transform: rotate(180deg);
 }
 
-.active-btn {
-	background: #7fc9fb;
-	color: #f8f8f8;
-	font-weight: bold;
-	border-radius: 2.67em;
-	width: 10em;
-	text-align: center;
-	transition: all ease .8s;
-
-}
-
-.active-btn:hover {
-	background: linear-gradient(95deg, rgba(85, 51, 255, 1) 40%, rgba(37, 221, 245, 1) 100%);
-}
-
 input,
 button,
-.about .col-4,
-.services .col-6,
-.blog .col-4 {
+.fab,
+.service .icon,
+a
+{
 	cursor: pointer;
 }
 
